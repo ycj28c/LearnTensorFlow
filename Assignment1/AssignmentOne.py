@@ -86,7 +86,8 @@ def maybe_extract(filename, force=False):
   print(data_folders)
   return data_folders
   
-train_folders = maybe_extract(train_filename)
 test_folders = maybe_extract(test_filename)
+train_folders = maybe_extract(train_filename)
+
 
 
